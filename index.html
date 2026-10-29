@@ -19,11 +19,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:"Zen Kaku Gothic
 .wrap{max-width:720px;margin:0 auto;padding:0 18px 56px}.hero{padding:34px 0 8px}.hero h1{font-size:clamp(2.2rem,9vw,3.4rem);line-height:1.02;font-weight:900;margin:0 0 10px;letter-spacing:-.01em}.hero h1 .jp{display:block;font-size:.42em;font-weight:500;color:var(--muted);letter-spacing:.18em;margin-top:8px}
 .facts{display:grid;gap:8px;margin:18px 0 0}.fact{background:var(--surface);border:1px solid var(--rule);border-left:6px solid var(--ginkgo);border-radius:6px;padding:10px 14px;font-size:.95rem}.fact b{display:block;font-weight:700}.fact span{color:var(--muted)}
 nav.days{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--rule);margin:10px -18px 0;padding:8px 18px;display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch}
-nav.days a{flex:0 0 auto;text-decoration:none;display:flex;align-items:center;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:999px;padding:7px 12px;font-size:.82rem;font-weight:700;white-space:nowrap}nav.days a:hover{border-color:var(--ginkgo)}
+nav.days a{flex:0 0 auto;text-decoration:none;display:flex;align-items:center;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:999px;padding:7px 12px;font-size:.82rem;font-weight:700;white-space:nowrap}nav.days a:hover{border-color:var(--ginkgo)}nav.days a.active{background:var(--ginkgo);color:var(--ginkgofg);border-color:var(--ginkgo)}
 nav.days a:focus-visible,.chip:focus-visible,.linelist a:focus-visible{outline:3px solid var(--ginkgo);outline-offset:2px}.overview{margin:26px 0 8px}.overview h2{font-size:1.15rem;margin:0 0 12px}.linelist{list-style:none;margin:0;padding:0 0 0 26px;position:relative}.linelist::before{content:"";position:absolute;left:8px;top:14px;bottom:14px;width:4px;background:var(--rule);border-radius:2px}.linelist li{position:relative;margin:0 0 6px}.linelist li::before{content:"";position:absolute;left:-24px;top:14px;width:14px;height:14px;border-radius:50%;background:var(--surface);border:4px solid var(--line)}.linelist a{display:grid;grid-template-columns:86px 1fr;gap:10px;text-decoration:none;padding:8px 10px;border-radius:6px;background:var(--surface);border:1px solid var(--rule)}.od{font-weight:700;font-size:.88rem;color:var(--muted)}.ot{font-weight:500}.ot small{display:block;color:var(--muted);font-size:.8rem}
 .day{background:var(--surface);border:1px solid var(--rule);border-radius:10px;margin:22px 0 0;padding:0 18px 20px;border-top:8px solid var(--line)}.dayhead{padding-top:16px}.daysign{display:inline-flex;align-items:baseline;gap:10px;background:var(--line);color:var(--linefg);padding:4px 12px;border-radius:4px;font-size:.88rem}.daysign strong{font-weight:900}.dayhead h2{font-size:1.5rem;line-height:1.2;margin:12px 0 8px;font-weight:900}.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{background:var(--ginkgo);color:var(--ginkgofg);font-weight:700;font-size:.78rem;padding:2px 9px;border-radius:4px}
 .stops{list-style:none;margin:14px 0 4px;padding:0;display:flex;flex-wrap:wrap;gap:8px}.stops li{border:2px solid var(--line);border-radius:6px;padding:4px 10px;display:flex;flex-direction:column;line-height:1.2}.stops .en{font-weight:700;font-size:.9rem}.stops .jp{font-size:.78rem;color:var(--muted);letter-spacing:.12em}
-h3{font-size:1rem;margin:20px 0 6px;font-weight:700}h3 .jp{color:var(--muted);font-weight:500;margin-left:6px;letter-spacing:.12em}.feel{margin:0 0 10px;max-width:62ch}.plan{margin:0;padding-left:20px;color:var(--muted);max-width:62ch}.plan li{margin:3px 0}.grp h4{margin:12px 0 6px;font-size:.9rem;font-weight:700;color:var(--muted)}.chips{display:flex;flex-wrap:wrap;gap:7px}.chip{text-decoration:none;background:var(--chipbg);border:1px solid var(--rule);border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;font-size:.9rem;line-height:1.3}.chip .cl{font-weight:500}.chip .cn{font-size:.75rem;color:var(--muted)}.chip.default{border-left:5px solid var(--ginkgo)}.chip.default .cl::before{content:"★ ";color:var(--ginkgo);font-weight:700}.extra .stops{display:none}.extra h3{font-size:1.15rem}.practical{margin-top:28px}.practical h2{font-size:1.15rem;margin:24px 0 8px}.practical ul{margin:0;padding-left:20px}.practical li{margin:6px 0;max-width:62ch}.legend{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--ginkgo);border-radius:6px;padding:8px 12px;font-size:.85rem;color:var(--muted);margin:16px 0 0}.legend b{color:var(--ink)}.foot{margin-top:30px;font-size:.82rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:14px}
+h3{font-size:1rem;margin:20px 0 6px;font-weight:700}h3 .jp{color:var(--muted);font-weight:500;margin-left:6px;letter-spacing:.12em}.feel{margin:0 0 10px;max-width:62ch}.plan{margin:0;padding-left:20px;color:var(--muted);max-width:62ch}.plan li{margin:3px 0}.grp h4{margin:12px 0 6px;font-size:.9rem;font-weight:700;color:var(--muted)}.chips{display:flex;flex-wrap:wrap;gap:7px}.chip{text-decoration:none;background:var(--chipbg);border:1px solid var(--rule);border-radius:8px;padding:6px 10px;display:flex;flex-direction:column;font-size:.9rem;line-height:1.3}.chip .cl{font-weight:500}.chip .cn{font-size:.75rem;color:var(--muted)}.chip.default{border-left:5px solid var(--ginkgo)}.chip.default .cl::before{content:"★ ";color:var(--ginkgo);font-weight:700}.extra .stops{display:none}.extra h3{font-size:1.15rem}.practical{background:var(--surface);border:1px solid var(--rule);border-radius:10px;margin:22px 0 0;padding:0 18px 20px;border-top:8px solid var(--ginkgo)}.practical h2{font-size:1.5rem;line-height:1.2;margin:12px 0 8px;font-weight:900}.practical ul{margin:0;padding-left:20px}.practical li{margin:6px 0;max-width:62ch}.legend{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--ginkgo);border-radius:6px;padding:8px 12px;font-size:.85rem;color:var(--muted);margin:16px 0 0}.legend b{color:var(--ink)}.foot{margin-top:30px;font-size:.82rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:14px}
 @media (min-width:620px){.facts{grid-template-columns:1fr 1fr}.wrap{padding:0 24px 72px}nav.days{margin:10px -24px 0;padding:8px 24px}}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 /* Revamped Guangzhou-style information architecture */
@@ -53,13 +53,54 @@ body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-ser
 .practical{margin-top:22px;background:var(--surface);border:1px solid var(--rule);border-top:7px solid #009BBF;border-radius:10px;padding:16px 17px 20px}
 @media(min-width:620px){#travel.split{grid-template-columns:1fr 1fr}}
 .flight-card{border:1px solid var(--rule);border-radius:12px;background:var(--chipbg);padding:18px 20px;margin:0}.flight-card h3{margin:0 0 14px;font-size:1.25rem;font-weight:800}.flight-route{font-weight:600;margin:0 0 12px}.flight-meta{font-weight:700;color:var(--muted);margin:0 0 8px}.flight-time{font-size:1.08rem;font-weight:700;margin:0;color:var(--ink)}.split{display:grid;grid-template-columns:1fr;gap:14px}@media(min-width:620px){.split{grid-template-columns:1fr 1fr}}
+
+
+/* Stay details and emergency reference */
+.stay-card{padding:16px 18px!important}
+.stay-name{display:block;font-size:1.05rem;margin-bottom:5px}
+.stay-address{margin:0 0 14px;color:var(--muted)}
+.stay-times{display:grid;grid-template-columns:1fr;gap:10px;margin:12px 0}
+.stay-times>div{background:var(--chipbg);border:1px solid var(--rule);border-radius:9px;padding:12px}
+.stay-label{display:block;color:var(--muted);font-size:.82rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.stay-times strong,.stay-times small{display:block}
+.stay-times small,.muted-note{color:var(--muted);font-size:.88rem;margin:5px 0 0}
+.stay-subsection,.stay-contact{border-top:1px solid var(--rule);margin-top:14px;padding-top:10px}
+.stay-subsection h3{margin:0 0 7px;font-size:1rem}
+.stay-subsection p,.stay-contact p{margin:5px 0}
+.emergency{margin-top:24px;padding:18px;background:var(--surface);border:1px solid var(--rule);border-top:7px solid #C65D45;border-radius:10px}
+.emergency h2{font-size:1.5rem;line-height:1.2;margin:0 0 12px;font-weight:900}
+.emergency h3{font-size:1.08rem;margin:22px 0 10px}
+.emergency p{max-width:70ch}
+.emergency-grid{display:grid;grid-template-columns:1fr;gap:10px}
+.emergency-call{background:var(--chipbg);border:1px solid var(--rule);border-radius:9px;padding:12px}
+.emergency-call strong{display:block;font-size:1.1rem}
+.table-wrap{overflow-x:auto;max-width:100%;margin:10px 0}
+.emergency table{width:100%;border-collapse:collapse;min-width:650px;font-size:.9rem}
+.emergency th,.emergency td{border:1px solid var(--rule);padding:9px 10px;text-align:left;vertical-align:top}
+.emergency th{background:var(--chipbg)}
+@media(min-width:620px){.stay-times{grid-template-columns:1fr 1fr}.emergency-grid{grid-template-columns:repeat(3,1fr)}}
+nav.days a.active{background:var(--ginkgo);color:var(--ginkgofg);border-color:var(--ginkgo);font-weight:700}
+
+
+/* Sticky chip rail: horizontal-only movement, compatible with touch scrolling */
+nav.days{overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;touch-action:pan-x;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+nav.days::-webkit-scrollbar{display:none}
+nav.days a{flex:0 0 auto;scroll-margin-inline:12px}
 </style>
 </head>
 <body>
 <main class="wrap" id="top">
 <header class="hero"><div class="eyebrow">Neighborhoods · shopping · design · slow Tokyo</div>
 <h1>Tokyo, Nov 2026<span class="jp" lang="ja">東京</span></h1>
-<p class="intro">5–12 November 2026 · 7 nights</p></header><nav aria-label="Jump to section or day" class="days"><a href="#flights">Flights</a><a href="#stay">Stay</a><a href="#overview">Overview itinerary</a><a href="#d1">Day 1 · Thu 5</a><a href="#d2">Day 2 · Fri 6</a><a href="#d3">Day 3 · Sat 7</a><a href="#d4">Day 4 · Sun 8</a><a href="#d5">Day 5 · Mon 9</a><a href="#d6">Day 6 · Tue 10</a><a href="#d7">Day 7 · Wed 11</a><a href="#d8">Day 8 · Thu 12</a><a href="#early">Shinjuku &amp; Shibuya</a><a href="#practical">Other notes</a></nav><section class="overview" id="flights"><h2>Flights</h2><div class="split"><article class="panel flight-card"><h3>Departure</h3><p class="flight-route">Jakarta (CGK) → Tokyo Haneda (HND)</p><p class="flight-meta">Wed, 4 Nov · GA874</p><p class="flight-time">23:40 → Thu, 5 Nov · 08:50</p></article><article class="panel flight-card"><h3>Return</h3><p class="flight-route">Tokyo Haneda (HND) → Jakarta (CGK)</p><p class="flight-meta">Thu, 12 Nov · GA875</p><p class="flight-time">11:45 → 17:50</p></article></div></section><section class="overview" id="stay"><h2>Stay</h2><article class="panel"><b>n'estate Kagurazaka by unito · Room 502</b><p>Park Axis Kagurazaka, Waseda Dori, Higashienoki-cho 7-1, Shinjuku-ku. Check-in 5 Nov; check-out 12 Nov. Phone 050-5369-8387.</p><p><a href="https://tremendous-pudding-6fc.notion.site/502-978cb5761adb4b91bfdfd5194ee8555a" rel="noopener" target="_blank">Room 502 check-in guide</a></p></article></section>
+<p class="intro">5–12 November 2026 · 7 nights</p></header><nav aria-label="Jump to section or day" class="days"><a href="#flights">Flights</a><a href="#stay">Stay</a><a href="#overview">Overview itinerary</a><a href="#d1">Day 1 · Thu 5</a><a href="#d2">Day 2 · Fri 6</a><a href="#d3">Day 3 · Sat 7</a><a href="#d4">Day 4 · Sun 8</a><a href="#d5">Day 5 · Mon 9</a><a href="#d6">Day 6 · Tue 10</a><a href="#d7">Day 7 · Wed 11</a><a href="#d8">Day 8 · Thu 12</a><a href="#early">Shinjuku &amp; Shibuya</a><a href="#practical">Other notes</a><a href="#emergency">Emergency</a></nav><section class="overview" id="flights"><h2>Flights</h2><div class="split"><article class="panel flight-card"><h3>Departure</h3><p class="flight-route">Jakarta (CGK) → Tokyo Haneda (HND)</p><p class="flight-meta">Wed, 4 Nov · GA874</p><p class="flight-time">23:40 → Thu, 5 Nov · 08:50</p></article><article class="panel flight-card"><h3>Return</h3><p class="flight-route">Tokyo Haneda (HND) → Jakarta (CGK)</p><p class="flight-meta">Thu, 12 Nov · GA875</p><p class="flight-time">11:45 → 17:50</p></article></div></section><section class="overview" id="stay"><h2>Stay</h2>
+<article class="panel stay-card">
+<b class="stay-name">n’estate Kagurazaka by unito · Room 502</b>
+<p class="stay-address">Park Axis Kagurazaka, Waseda Dori, Higashienoki-cho 7-1, Shinjuku-ku, Tokyo</p>
+<div class="stay-times"><div><span class="stay-label">Check-in</span><strong>Thu, 5 Nov · From 4:00 PM</strong><small>Check-in is available from 4:00 PM on your arrival date.</small></div><div><span class="stay-label">Check-out</span><strong>Thu, 12 Nov · By 10:00 AM</strong><small>Please check out by 10:00 AM on your departure date.</small></div></div>
+<div class="stay-subsection"><h3>Key access · 鍵について</h3><p><strong>Key box PIN: 3782</strong></p><p class="muted-note">The Japanese heading 鍵について means “About the key.”</p></div>
+<div class="stay-contact"><p><strong>LINE Concierge</strong> · <a href="https://line.me/R/ti/p/%40592vcuym" target="_blank" rel="noopener">Message on LINE</a></p><p><strong>unito Guest Support</strong> · <a href="tel:+815053698387">+81 50-5369-8387</a></p><p class="muted-note">Calls only; SMS is not available. When calling, provide the property name or location of your residence and your name as stated on the contract.</p></div>
+<p><a href="https://tremendous-pudding-6fc.notion.site/502-978cb5761adb4b91bfdfd5194ee8555a" rel="noopener" target="_blank">Room 502 check-in guide</a></p>
+</article></section>
 <div class="overview timeline-wrap" id="overview"><h2>The week at a glance</h2><ul class="linelist">
 <li style="--line:#5B6778"><a class="timeline-link" href="#flights"><span class="od">Wed 4 Nov</span><span class="ot">Fly out<small>GA874 leaves Jakarta late evening</small></span></a></li>
 <li style="--line:#587F8C"><a class="timeline-link" href="#d1"><span class="od">Thu 5 Nov</span><span class="ot">Kagurazaka, Ikebukuro<small>Arrival day</small></span></a></li>
@@ -100,7 +141,7 @@ body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-ser
 <h3>Pick by mood</h3><div class="grp"><h4>Dining</h4><div class="chips"><a class="chip default" href="https://www.google.com/maps/search/?api=1&amp;query=Kaneko+Hannosuke+Kisarazu"><span class="cl">Kaneko Hannosuke Mitsui Outlet Park Kisarazu</span><span class="cn">tendon specialist in the food court — no booking, eat when you're ready</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Kantaro+Kaiten+Sushi+Kisarazu"><span class="cl">Kantaro Kaiten Sushi Mitsui Outlet Park Kisarazu</span><span class="cn">conveyor sushi</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ocean+View+Terrace+Kisarazu"><span class="cl">Ocean View Terrace Mitsui Outlet Park Kisarazu</span><span class="cn">food court, 2F</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ginza+Kagari+Otemachi+Tokyo"><span class="cl">Ginza Kagari Otemachi</span><span class="cn">near Tokyo Station</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ushigoro+S.+Shinjuku+Tokyo"><span class="cl">Ushigoro S. Shinjuku</span></a></div></div></section>
 <section class="day" id="d3" style="--line:#F15A22;--linefg:#0A1A2F"><header class="dayhead"><span class="daysign"><strong>Day 3</strong><span>Sat 7 Nov</span></span><h2>Out west on the Chuo line</h2><div class="tags"><span class="tag">Lunch booked 11:15</span></div></header><ul class="stops"><li><span class="en">Kichijoji</span><span class="jp">吉祥寺</span></li><li><span class="en">Koenji</span><span class="jp">高円寺</span></li><li><span class="en">Nakano</span><span class="jp">中野</span></li></ul>
 <h3>What to expect</h3><p class="feel">Three stops on one train line, each with a different mood. Kichijoji has Inokashira Park, lakeside paths and a tangle of small shops and snack counters, and it is busy on Saturdays. Koenji is vintage clothing, live music houses and neighborhood izakaya, relaxed and a little scruffy. Nakano has the Broadway arcade of collectibles and anime goods.</p>
-<ul class="plan"><li>11:15 Hikiniku to Come Kichijoji (booked).</li><li>Walk it off at Inokashira Park, grab a menchi katsu or yakimusubi to snack on.</li><li>Chuo line to Koenji for vintage shops, then Nakano. Tensuke is an optional food idea if you happen to want it.</li><li>Chuo line runs straight on to Shinjuku if you want dinner there.</li></ul>
+<ul class="plan"><li>11:15 Hikiniku to Come Kichijoji (booked).</li><li>Walk it off at Inokashira Park, grab a menchi katsu or yakimusubi to snack on.</li><li>Chuo line to Koenji for vintage shops, then Nakano.</li><li>Chuo line runs straight on to Shinjuku if you want dinner there.</li></ul>
 <h3>Pick by mood</h3><div class="grp"><h4>Dining</h4><div class="chips"><a class="chip default" href="https://www.google.com/maps/search/?api=1&amp;query=Hikiniku+to+Come+Kichijoji+Tokyo"><span class="cl">Hikiniku to Come Kichijoji</span><span class="cn">11:15, confirmed booking. Specialist hamburg steak.</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Satou+Kichijoji+Tokyo"><span class="cl">Satou Kichijoji</span><span class="cn">menchi katsu</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Gourmet+Yakimusubi+Onimaru+Kichijoji+Tokyo"><span class="cl">Gourmet Yakimusubi Onimaru Kichijoji</span><span class="cn">grilled rice balls</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Tensuke+Koenji+Tokyo"><span class="cl">Tensuke</span><span class="cn">egg tempura bowl; Sat 12:00–15:00; cash only; long line</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ushigoro+S.+Shinjuku+Tokyo"><span class="cl">Ushigoro S. Shinjuku</span><span class="cn">yakiniku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Gyukatsu+Motomura+Nishi+Shinjuku+Tokyo"><span class="cl">Gyukatsu Motomura Nishi Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ramen+Tatsunoya+Shinjuku+Tokyo"><span class="cl">Ramen Tatsunoya Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ichiran+Shinjuku+Kabukicho+Tokyo"><span class="cl">Ichiran Shinjuku Kabukicho</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Torikizoku+Shinjuku+Tokyo"><span class="cl">Torikizoku Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Isomaru+Suisan+Shinjuku+Tokyo"><span class="cl">Isomaru Suisan Shinjuku</span></a></div></div>
 <div class="grp"><h4>Sweet &amp; desserts</h4><div class="chips"><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Musashino+Mori+Coffee+Shinjuku+Central+Park+Tokyo"><span class="cl">Musashino Mori Coffee Shinjuku Central Park</span><span class="cn">fluffy ricotta pancake</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=HARBS+Lumine+Est+Shinjuku+Tokyo"><span class="cl">HARBS LUMINE EST Shinjuku</span><span class="cn">banana cream pie</span></a></div></div>
 <div class="grp"><h4>Sights &amp; attractions</h4><div class="chips"><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Inokashira+Park+Tokyo"><span class="cl">Inokashira Park</span><span class="cn">park; lakeside walk</span></a></div></div></section>
@@ -162,8 +203,137 @@ body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-ser
 <div class="chips"><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ushigoro+S.+Shinjuku+Tokyo"><span class="cl">Ushigoro S. Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Gyukatsu+Motomura+Nishi+Shinjuku+Tokyo"><span class="cl">Gyukatsu Motomura Nishi Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ramen+Tatsunoya+Shinjuku+Tokyo"><span class="cl">Ramen Tatsunoya Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ichiran+Shinjuku+Kabukicho+Tokyo"><span class="cl">Ichiran Shinjuku Kabukicho</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Gourmet+Yakimusubi+Onimaru+Nishi-Shinjuku+Tokyo"><span class="cl">Gourmet Yakimusubi Onimaru Nishi-Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Verve+Coffee+Roasters+NEWoMan+Shinjuku+Tokyo"><span class="cl">Verve Coffee Roasters NEWoMan Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Musashino+Mori+Coffee+Shinjuku+Central+Park+Tokyo"><span class="cl">Musashino Mori Coffee Shinjuku Central Park</span><span class="cn">fluffy ricotta pancake</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=HARBS+Lumine+Est+Shinjuku+Tokyo"><span class="cl">HARBS LUMINE EST Shinjuku</span><span class="cn">banana cream pie</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Torikizoku+Shinjuku+Tokyo"><span class="cl">Torikizoku Shinjuku</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Isomaru+Suisan+Shinjuku+Tokyo"><span class="cl">Isomaru Suisan Shinjuku</span></a></div>
 <h3>Shibuya <span class="jp">渋谷</span></h3><p class="feel">Crowded crossing, steep side streets, shopping towers and small cafes. Best as an evening extension. It is one stop from Ebisu on Day 2 and one stop from Harajuku on Day 7.</p>
 <div class="chips"><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Streamer+Coffee+Company+Shibuya+Tokyo"><span class="cl">Streamer Coffee Company Shibuya</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Blue+Bottle+Coffee+Shibuya+Tokyo"><span class="cl">Blue Bottle Coffee Shibuya</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Ichiran+Shibuya+Spain-zaka+Tokyo"><span class="cl">Ichiran Shibuya Spain-zaka</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Hikiniku+to+Come+Shibuya+Tokyo"><span class="cl">Hikiniku to Come Shibuya</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Hatoya+Shibuya+Tokyo"><span class="cl">Hatoya Shibuya</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Marugame+Seimen+Shibuya+Dogen-zaka+opener"><span class="cl">Marugame Seimen Shibuya Dogen-zaka</span></a><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=JB%27s+Tokyo+Miyashita+Park+Tokyo"><span class="cl">JB's Tokyo Miyashita Park</span></a></div></section>
-<div class="practical" id="practical"><h2>Practical notes</h2><ul><li>Fixed itinerary: Hikiniku to Come Kichijoji at 11:15 on Sat 7 Nov, Mitsui Outlet Park on Fri 6 Nov, Tokyo DisneySea on Tue 10 Nov, and both flights.</li><li>Sat 10 Oct, 08:00 in Jakarta (10:00 Japan time): DisneySea restaurant reservations open for Tue 10 Nov.</li><li>Buy DisneySea passes for Tue 10 Nov. Adult one-day passport is ¥10,900.</li><li>Reserve Yakiniku Rikimaru online if you want it on Day 1.</li><li>Bring cash for Tensuke on Day 3.</li><li>For Mitsui Outlet Park, target the 09:05 Tokyo Yaesu bus; choose a return bus based on how long you want to shop. Confirm the return schedule at the outlet's bus terminal on arrival.</li><li>Check 21_21 and Mori ticket availability on the morning of Day 5 (Mon 9 Nov). Mori uses timed entry and can sell out; 21_21 does not. If Mori is sold out, default to 21_21.</li><li>If it rains: swap Day 7's park time for the museum menu on Day 2, or extend Ginza department stores on Day 4.</li></ul></div>
+<div class="practical" id="practical"><h2>Practical notes</h2><ul>
+<li><strong>Fixed plans</strong><ul>
+<li>Fri 6 Nov — Mitsui Outlet Park Kisarazu.</li>
+<li>Sat 7 Nov, 11:15 — Hikiniku to Come Kichijoji (booking confirmed).</li>
+<li>Tue 10 Nov — Tokyo DisneySea.</li>
+<li>Flights: GA874, CGK → HND, Wed 4 Nov 23:40 → Thu 5 Nov 08:50; GA875, HND → CGK, Thu 12 Nov 11:45 → 17:50.</li>
+</ul></li>
+<li>Sat 10 Oct, 08:00 in Jakarta (10:00 Japan time): DisneySea restaurant reservations open for Tue 10 Nov.</li>
+<li>Buy DisneySea passes for Tue 10 Nov. Adult one-day passport is ¥10,900.</li>
+<li>Reserve Yakiniku Rikimaru online if you want it on Day 1.</li>
+<li>Bring some cash for street food and small independent shops.</li>
+<li>For Mitsui Outlet Park, target the 09:05 Tokyo Yaesu bus; choose a return bus based on how long you want to shop. Confirm the return schedule at the outlet's bus terminal on arrival.</li>
+<li>Check 21_21 and Mori ticket availability on the morning of Day 5 (Mon 9 Nov). Mori uses timed entry and can sell out; 21_21 does not. If Mori is sold out, default to 21_21.</li>
+<li><strong>Rain plan:</strong> On Wed 11 Nov, if Yoyogi park time is unpleasant, swap the outdoor stretch for an indoor museum option already listed in the itinerary. Or keep the shopping plan and spend longer in Omotesando/Aoyama’s indoor shops and cafés. On Sun 8 Nov, lean into Ginza department stores and indoor shopping if rain disrupts the car-free stroll.</li>
+<li><strong>Kagurazaka with luggage:</strong> Use Kagurazaka Station Exit 1b for the elevator route; follow station signage and allow extra time.</li>
+<li><strong>Before check-in:</strong> Check with n’estate/unito about early check-in. If it is unavailable, ask whether they can hold your luggage; otherwise, use a nearby station locker.</li>
+<li><strong>Optional arrival-day idea:</strong> Yayoi Kusama Museum, near Kagurazaka, could be an art stop before check-in if the date and a timed ticket work. It requires advance booking and is not a drop-in option; check the museum’s calendar before planning around it.</li>
+</ul></div>
+<section class="emergency" id="emergency">
+<h2>Emergency contact information</h2>
+<p>If you encounter a fire, incident, or accident, contact the relevant emergency service:</p>
+<div class="emergency-grid">
+<div class="emergency-call"><span>Fire Department</span><strong><a href="tel:119">119</a></strong></div>
+<div class="emergency-call"><span>Ambulance / Emergency Medical Services</span><strong><a href="tel:119">119</a></strong></div>
+<div class="emergency-call"><span>Police</span><strong><a href="tel:110">110</a></strong></div>
+</div>
+<h3>Local fire department &amp; police</h3>
+<div class="table-wrap"><table><thead><tr><th>Facility</th><th>Phone</th><th>Address</th></tr></thead><tbody>
+<tr><td>Ushigome Fire Station</td><td><a href="tel:+81332670119">03-3267-0119</a></td><td>5-16 Tsukudo Hachiman-cho, Shinjuku-ku, Tokyo 162-0815</td></tr>
+<tr><td>Ushigome Police Station Tsurumaki-cho Police Box</td><td><a href="tel:+81332690110">03-3269-0110</a></td><td>521-12 Waseda Tsurumaki-cho, Shinjuku-ku, Tokyo</td></tr>
+</tbody></table></div>
+<h3>Nearby medical facilities</h3>
+<p class="muted-note">Information may change. Confirm consultation hours and available services before visiting. Bring your passport and travel insurance details, if available.</p>
+<div class="table-wrap"><table><thead><tr><th>Medical facility</th><th>Services</th><th>Approx. consultation hours</th><th>Phone</th><th>Address</th></tr></thead><tbody>
+<tr><td><a href="https://okada.med-kagurazaka.com/" target="_blank" rel="noopener">Kagurazaka Okada Clinic</a></td><td>General Internal Medicine, Nephrology</td><td>Mon, Tue, Wed, Fri: 9:00 AM–1:00 PM / 3:00 PM–6:00 PM; Sat: 9:00 AM–1:00 PM. Closed Thu, Sat afternoon, Sun &amp; holidays.</td><td><a href="tel:+81332686373">03-3268-6373</a></td><td>28 Yarai-cho, Shinjuku-ku, Tokyo 162-0805</td></tr>
+<tr><td><a href="https://yama-cli.com/" target="_blank" rel="noopener">Kagurazaka Yamamoto Internal Medicine Clinic</a></td><td>Internal Medicine (Diabetology, Endocrinology)</td><td>Tue–Fri: 9:00 AM–12:00 PM / 2:30 PM–6:00 PM; Sat: 9:00 AM–1:00 PM. Closed Mon, Sun &amp; holidays.</td><td><a href="tel:+81364575755">03-6457-5755</a></td><td>Tokigakuen Building 3F, 2-12 Kagurazaka, Shinjuku-ku, Tokyo 162-0825</td></tr>
+<tr><td><a href="https://shinjuku.jcho.go.jp/" target="_blank" rel="noopener">Tokyo Shinjuku Medical Center</a></td><td>Emergency (Emergency General Medicine Department)</td><td>Emergency: 24 hours. Outpatient reception (approx.): weekdays 8:30 AM–11:30 AM.</td><td><a href="tel:+81332698111">03-3269-8111</a></td><td>5-1 Tsukudo-cho, Shinjuku-ku, Tokyo 162-8543</td></tr>
+</tbody></table></div>
+<div class="stay-contact"><p><strong>Unsure whether you need a hospital?</strong> Call Emergency Medical Consultation Service <strong><a href="tel:#7119">#7119</a></strong> for advice, including whether to call an ambulance or monitor symptoms at home.</p></div>
+</section>
 <p class="foot">Hours and prices checked on 5 Oct 2026 from official and travel sites. Flight times come from public listings. Kisarazu return bus times were not confirmed. Tap any place to open it in Google Maps.</p>
 </main>
+
+<script>
+(() => {
+  const nav = document.querySelector('nav.days');
+  if (!nav) return;
+
+  const links = Array.from(nav.querySelectorAll('a[href^="#"]'));
+  const sections = links
+    .map(a => document.getElementById(decodeURIComponent(a.hash.slice(1))))
+    .filter(Boolean);
+  if (!sections.length) return;
+
+  let activeId = null;
+  let queued = false;
+
+  function centerChip(link) {
+    const rail = nav.getBoundingClientRect();
+    const chip = link.getBoundingClientRect();
+    const max = Math.max(0, nav.scrollWidth - nav.clientWidth);
+    const target = Math.max(0, Math.min(
+      nav.scrollLeft + chip.left - rail.left - (nav.clientWidth - chip.width) / 2,
+      max
+    ));
+    if (Math.abs(target - nav.scrollLeft) < 2) return;
+    nav.scrollTo({ left: target, behavior: 'smooth' });
+  }
+
+  function setActive(id) {
+    if (!id || id === activeId) return false;
+    activeId = id;
+    const hash = '#' + id;
+    for (const a of links) {
+      const on = a.hash === hash;
+      a.classList.toggle('active', on);
+      if (on) a.setAttribute('aria-current', 'location');
+      else a.removeAttribute('aria-current');
+    }
+    return true;
+  }
+
+  function compute() {
+    queued = false;
+    const threshold = nav.getBoundingClientRect().bottom + 24;
+    let current = sections[0];
+
+    for (const s of sections) {
+      if (s.getBoundingClientRect().top <= threshold) current = s;
+    }
+
+    const doc = document.scrollingElement || document.documentElement;
+    const scrolled = window.scrollY || doc.scrollTop || 0;
+    if (window.innerHeight + scrolled >= doc.scrollHeight - 2) {
+      current = sections[sections.length - 1];
+    }
+
+    if (setActive(current.id)) {
+      const selected = links.find(a => a.hash === '#' + current.id);
+      if (selected) centerChip(selected);
+    }
+  }
+
+  function request() {
+    if (queued) return;
+    queued = true;
+    window.requestAnimationFrame(compute);
+  }
+
+  function onScroll(e) {
+    if (e && e.target === nav) return;
+    request();
+  }
+
+  document.addEventListener('scroll', onScroll, true);
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', request, { passive: true });
+  window.addEventListener('orientationchange', request, { passive: true });
+
+  links.forEach(a => {
+    a.addEventListener('click', () => {
+      setActive(a.hash.slice(1));
+      centerChip(a);
+    });
+  });
+
+  const initial = sections.find(s => '#' + s.id === location.hash);
+  if (initial) setActive(initial.id);
+  request();
+})();
+</script>
+
 </body>
 </html>
